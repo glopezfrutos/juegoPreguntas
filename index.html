@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Concurso Preguntas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin">
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -80,8 +81,8 @@
             </div>
 
             <div class="next-button-container">
-                <button onclick="handleNextQuestion()"> Siguiente pregunta </button>
-              <button onclick="withdraw()"> Retirarse </button>
+              <button id="withdraw" onclick="withdraw()"> Retirarse </button>
+              <button id="next" onclick="handleNextQuestion()"> Siguiente </button>
             </div>
         </div>
     </main>
