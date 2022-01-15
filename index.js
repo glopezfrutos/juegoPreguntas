@@ -260,7 +260,7 @@ function checkForAnswer() {
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
             document.getElementById(correctOption).style.backgroundColor = "green"
-            playerScore = 100 + (playerScore) * level;
+            playerScore = playerScore + 100 * level;
             indexNumber++;
           level++;
           
